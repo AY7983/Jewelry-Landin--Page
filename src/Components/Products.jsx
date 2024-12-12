@@ -1,3 +1,4 @@
+import "./Product.css";
 export const ProductSection = () => {
   return (
    <>
@@ -65,7 +66,7 @@ export const ProductSection = () => {
               <div className="col-md-4">
                 <div className="product transparent">
                   <img
-                    src="../public/collection-1.png"
+                    src="../public/bracelet.png"
                     alt="Product 1"
                     className="img-fluid rounded gold"
                   />

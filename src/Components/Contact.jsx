@@ -1,4 +1,4 @@
-
+import "./Contact.css";
 export const ContactSection = () => {
   return (
         <section id="contact" className="py-5">

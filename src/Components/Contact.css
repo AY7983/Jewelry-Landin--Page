@@ -1,0 +1,30 @@
+#contact {
+  padding: 50px 15px;
+  background-color: gainsboro;
+}
+#contact h2{
+  font-size: 70px;
+  color:#3716af;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #ff6f61;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}

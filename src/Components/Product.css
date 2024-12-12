@@ -1,0 +1,77 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Portfolio Section */
+#portfolio {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+#portfolio h2 {
+  font-size: 3rem;
+  color: rgb(43, 43, 155);
+  font-weight:bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.product {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.product img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.product img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Grid Adjustments */
+@media (max-width: 992px) {
+  .product {
+    /* margin-bottom: 1.5rem; */
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #portfolio h2 {
+    font-size: 1.75rem;
+  }
+
+  .product img {
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  #portfolio h2 {
+    font-size: 1.5rem;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    flex: 0 0 90%; /* Adjust column width */
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+}

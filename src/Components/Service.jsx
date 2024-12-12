@@ -1,4 +1,4 @@
-
+import "./Service.css";
 export const ServicesPage = () => {
   return (
     <div className="services-page">

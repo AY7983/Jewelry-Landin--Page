@@ -1,5 +1,6 @@
-import React from "react";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
 import { HeroSection } from "./Components/hero";
 import { AboutSection } from "./Components/About";
@@ -13,15 +14,11 @@ function App() {
     <>
       <div>
         <NavbarSection />
-        < HeroSection />
+        <HeroSection />
         <AboutSection />
         <ProductSection />
         <ServicesPage />
         <ContactSection />
-        
-
-    
-
         {/* Footer */}
         <footer className="text-white text-center py-3">
           <p>&copy; 2024 Jewelry Brand. All rights reserved.</p>
